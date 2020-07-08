@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>title</title>
+    <!--  -->
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!-- Microsoft Tiles -->
+<meta name="msapplication-config" content="browserconfig.xml">
+
+<link rel="icon" type="image/png" href="favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+<!-- Fonts -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet"> -->
+
+<link rel="stylesheet" href="css/main.min.css">
+
+    <!--  -->
+  </head>
+
+  <body>
+    <!--[if lte IE 11]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    
+
+    <div class="mainWrapper">
+      <div class="contentWrapper">
+        <!--  -->
+        
+        <!--  -->
+
+        <!-- Start of page code insertion here -->
+
+        <header class="main-header">
+          <div class="top-header bg-light">
+            <nav class="navbar navbar-light  mcontainer">
+              <a class="navbar-brand">Navbar</a>
+              <ul class="form-inline">
+                <li class="links">
+                  <a href="#">Менеджеры</a>
+                </li>
+                <li class="links">
+                  <a href="./imports.html">Загрузить прайс</a>
+                </li>
+                <li
+                  type="submit">
+                  <a class="btn btn-outline-success my-2 my-sm-0" href="#"
+                     onclick="event.preventDefault();
+                                             document.getElementById('logout-form').submit();">
+                    Выйти
+                  </a>
+                  <form id="logout-form" action="#" method="POST" style="display: none;">
+                  </form>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        <div class="product-block mcontainer">
+          <ul class="nav nav-pills justify-content-center product-btns flex spaceEvenly" role="tablist">
+            <li class="nav-item prod-btn phone active">
+              <a class="nav-link " href="#phone" role="tab" data-toggle="pill">Смартфоны</a>
+            </li>
+            <li class="nav-item prod-btn tables">
+              <a class="nav-link" href="#table" role="tab" data-toggle="pill">Планшеты и книги</a>
+            </li>
+            <li class="nav-item prod-btn clock">
+              <a class="nav-link" href="#clock" role="tab" data-toggle="pill">Смарт-часы</a>
+            </li>
+            <li class="nav-item prod-btn game-device">
+              <a class="nav-link" href="#device" role="tab" data-toggle="pill">Игровые консоли</a>
+            </li>
+          </ul>
+        </div>
+
+
+<!-- ---------------  -->
+          <!-- <ul class="nav nav-pills" role="tablist">
+            <li><a href="#home" role="tab" data-toggle="pill">Домой</a></li>
+            <li><a href="#profile" role="tab" data-toggle="pill">Профиль</a></li>
+            <li class="active"><a href="#message" role="tab" data-toggle="pill">Сообщения</a></li>
+            <li><a href="#settings" role="tab" data-toggle="pill">Настройки</a></li>
+          </ul>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade" id="home">   </div>
+            <div role="tabpanel" class="tab-pane fade" id="profile">Вкладка профайл</div>
+            <div role="tabpanel" class="tab-pane active fade in" id="message">Вкладка с сообщениями</div>
+            <div role="tabpanel" class="tab-pane fade" id="settings">Вкладка с настройками</div>
+          </div>
+      -->
+<!-- ----------------  -->
+
+
+
+<div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade active in" id="phone">
+        <div class="categories-block mcontainer flex wrap">
+          <div class="categories-brand col-12 col-lg-4 col-md-6">
+            <div class="desktop-brand">
+              <p class="categories-title">Производитель</p>
+              <div class="serch-brand">
+                <input type="text" placeholder="поиск по производителю" />
+              </div>
+              <div class="categories-list">
+                <ul class="categories-item-block">
+                  <li>Apple</li>
+                  <li>Asus</li>
+                  <li>BlackBerry</li>
+                  <li>Doogee</li>
+                  <li>Fly</li>
+                  <li>Google</li>
+                  <li>Lenovo</li>
+                  <li>Meizu</li>
+                  <li>Nokia</li>
+                  <li>Sony</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="categories-model col-12 col-lg-4 col-md-6">
+            <div class="desktop-model">
+              <p class="categories-title">Модель</p>
+              <div class="serch-model">
+                <input type="text" placeholder="поиск по моделе" />
+              </div>
+              <div class="categories-list">
+                <ul class="categories-item-block">
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                  <li>Apple iPhone 7 32Gb Red (MPRL2)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-wrap col-12 col-lg-4 col-md-6">
+            <p title="Apple iPhone 7 32Gb Red (MPRL2)" class="product-name">
+              Apple iPhone 7 32Gb Red (MPRL2)
+            </p>
+            <p class="product-price">$300</p>
+            <div class="product-img">
+              <img src="./img/iphone-7-blank-screen-png-8.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+        <div role="tabpanel" class="tab-pane fade" id="table">
+          <div class="categories-block mcontainer flex wrap">
+            <div class="categories-brand col-12 col-lg-4 col-md-6">
+              <div class="desktop-brand">
+                <p class="categories-title">Производитель</p>
+                <div class="serch-brand">
+                  <input type="text" placeholder="поиск по производителю" />
+                </div>
+                <div class="categories-list">
+                  <ul class="categories-item-block">
+                    <li>AirBook</li>
+                    <li>Amazon</li>
+                    <li>Apple</li>
+                    <li>Asus</li>
+                    <li>PocketBook</li>
+                    <li>Sigma</li>
+                    <li>Lenovo</li>
+                    <li>Meizu</li>
+                    <li>Nokia</li>
+                    <li>Sony</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div class="categories-model col-12 col-lg-4 col-md-6">
+              <div class="desktop-model">
+                <p class="categories-title">Модель</p>
+                <div class="serch-model">
+                  <input type="text" placeholder="поиск по моделе" />
+                </div>
+                <div class="categories-list">
+                  <ul class="categories-item-block">
+                    <li>Электронная книга AirBook Pro 8S</li>
+                    <li>Электронная книга AirBook Pro 9A</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div class="product-wrap col-12 col-lg-4 col-md-6">
+              <p title="Apple iPhone 7 32Gb Red (MPRL2)" class="product-name">
+                Электронная книга AirBook Pro 8S
+              </p>
+              <p class="product-price">$100</p>
+              <div class="product-img">
+                <img src="./img/tables.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade " id="clock">
+          <div class="categories-block mcontainer flex wrap">
+            <div class="categories-brand col-12 col-lg-4 col-md-6">
+              <div class="desktop-brand">
+                <p class="categories-title">Производитель</p>
+                <div class="serch-brand">
+                  <input type="text" placeholder="поиск по производителю" />
+                </div>
+                <div class="categories-list">
+                  <ul class="categories-item-block">
+                    <li>Apple</li>
+                    <li>Casio</li>
+                    <li>Expert</li>
+                    <li>Fitbit</li>
+                    <li>Samsung</li>
+                    <li>Garmin</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div class="categories-model col-12 col-lg-4 col-md-6">
+              <div class="desktop-model">
+                <p class="categories-title">Модель</p>
+                <div class="serch-model">
+                  <input type="text" placeholder="поиск по моделе" />
+                </div>
+                <div class="categories-list">
+                  <ul class="categories-item-block">
+                    <li>Apple Watch 38mm Stailnless Steel Case with White Sport Band (MJ302)</li>
+                    <li>Apple Watch 42mm Series 3 Cellular Space Black Stainless Steel w. Black...</li>
+                    <li>Apple Watch 42mm Series 3 Cellular Space Black Stainless Steel w. Space...</li>
+                    <li>Apple Watch 42mm Series 3 Cellular Space Gray Aluminum w. Black Sport...</li>
+                    <li>Apple Watch Edition 38mm White Ceramic Case with White Sport Band (MNPF2)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div class="product-wrap col-12 col-lg-4 col-md-6">
+              <p title="Apple iPhone 7 32Gb Red (MPRL2)" class="product-name">
+                Apple Watch 38mm (MJ302)
+              </p>
+              <p class="product-price">$230</p>
+              <div class="product-img">
+                <img src="./img/clock.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="device">
+          <div class="categories-block mcontainer flex wrap">
+            <div class="categories-brand col-12 col-lg-4 col-md-6">
+              <div class="desktop-brand">
+                <p class="categories-title">Производитель</p>
+                <div class="serch-brand">
+                  <input type="text" placeholder="поиск по производителю" />
+                </div>
+                <div class="categories-list">
+                  <ul class="categories-item-block">
+                    <li>Microsoft</li>
+                    <li>Sony</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div class="categories-model col-12 col-lg-4 col-md-6">
+              <div class="desktop-model">
+                <p class="categories-title">Модель</p>
+                <div class="serch-model">
+                  <input type="text" placeholder="поиск по моделе" />
+                </div>
+                <div class="categories-list">
+                  <ul class="categories-item-block">
+                    <li>Игровая приставка Microsoft Xbox 360 S 250GB</li>
+                    <li>Игровая приставка Microsoft Xbox One 500GB</li>
+                    <li>Игровая приставка Microsoft Xbox One S 500GB</li>
+                    <li>Игровая приставка Xbox One S 1TB</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div class="product-wrap col-12 col-lg-4 col-md-6">
+              <p title="Apple iPhone 7 32Gb Red (MPRL2)" class="product-name">
+                Игровая приставка Microsoft Xbox 360 S 250GB
+              </p>
+              <p class="product-price">$410</p>
+              <div class="product-img">
+                <img src="./img/psp.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+  
+</div>
+
+
+
+        <!-- End of page code insertion here -->
+
+        
+      </div>
+      <!--  -->
+      
+      <!--  -->
+      
+      <!--  -->
+    </div>
+    <!--  -->
+    <!--________SCRIPTS______-->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+
+<script type="text/javascript" src="js/dotdotdot.min.js"></script>
+<!-- <script type="text/javascript" src="js/chosen.jquery.min.js"></script> -->
+
+
+<script type="text/javascript" src="js/index.min.js"></script>
+
+
+<!-- ----  -->
+<script  type="text/javascript" src="js/libs/minified/bootstrap.min.js"></script>
+<script  type="text/javascript" src="js/libs/minified/popper.min.js"></script>
+<!-- ----  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--  -->
+  </body>
+</html>
